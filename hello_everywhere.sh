@@ -1,14 +1,14 @@
 
 #!/bin/bash
 
-# Function to create folder and write log using Bash
+# Function to create folder and write something using Bash
 create_folder_and_log_bash() {
     mkdir -p hello_everywhere_output
     echo "Log created on $(date)" > hello_everywhere_output/log.txt
     echo "Hello from Bash!"
 }
 
-# Function to create folder and write log using Python
+# Function to create folder and write something using Python
 create_folder_and_log_python() {
     python3 - <<END
 import os
